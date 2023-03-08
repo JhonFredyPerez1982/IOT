@@ -1,0 +1,49 @@
+body {
+    background: url(imagenes/luna.PNG)center/cover no-repeat;
+    width: 1280px;
+    height: 300px;
+}
+
+.granjas {
+    display: flex;
+    padding: 10px;
+}
+
+#boton2 {
+    margin: 100px;
+    padding-bottom: 60px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 600px;
+    height: 450px;
+    background: url(imagenes/galponDia.PNG)center/cover no-repeat;
+}
+
+#boton {
+    margin: 100px;
+    padding-bottom: 60px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 600px;
+    height: 450px;
+    background: url(imagenes/galponNoche.PNG)center/cover no-repeat;
+}
+
+.hi {
+    width: 700px;
+    height: 500px;
+    text-align: center;
+}
+
+@media(max-width:768px) {
+    body {
+        width: 1280vw;
+        height: 300vw;
+    }
+
+    .granjas {
+        flex-direction: column;
+    }
+}
